@@ -1,0 +1,25 @@
+.header {
+	padding: 1.6rem 0;
+	position: relative;
+	z-index: 10;
+}
+
+.headerInner {
+    padding: 0 3.2rem;
+}
+
+.logo {
+    display: inline-block;
+    width: 100%;
+    max-width: 15.3rem;
+    height: 5.3rem;
+  }
+  @media (max-width: 575px) {
+    .logo {
+      max-width: 13rem;
+    }
+  }
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
